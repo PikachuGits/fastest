@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    // ✅ 重点：必须是支持 import.meta 的值
+    "jsx": "react-jsx",
+    "moduleResolution": "bundler",
+    // 或 node
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    //    "types": ["vite/client"] // 或 ["bun-types", "vite/client"] 根据你用的工具
+    "types": [
+      "vite/client",
+      "node"
+    ]
+  },
+  "include": [
+    "src",
+    "fastest"
+  ]
+}
