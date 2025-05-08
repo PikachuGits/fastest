@@ -1,4 +1,4 @@
-# Rsbuild project
+# Modern.js App
 
 ## Setup
 
@@ -8,12 +8,18 @@ Install the dependencies:
 pnpm install
 ```
 
-## Get started
+## Get Started
 
 Start the dev server:
 
 ```bash
 pnpm dev
+```
+
+Enable optional features or add a new entry:
+
+```bash
+pnpm new
 ```
 
 Build the app for production:
@@ -25,5 +31,7 @@ pnpm build
 Preview the production build locally:
 
 ```bash
-pnpm preview
+pnpm serve
 ```
+
+For more information, see the [Modern.js documentation](https://modernjs.dev/en).
