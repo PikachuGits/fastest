@@ -1,6 +1,9 @@
 {
   "extends": "@modern-js/tsconfig/base",
   "compilerOptions": {
+    "module": "esnext",
+    "target": "es2020",
+    "moduleResolution": "node",
     "declaration": false,
     "jsx": "preserve",
     "baseUrl": "./",

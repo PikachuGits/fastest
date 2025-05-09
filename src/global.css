@@ -1,0 +1,56 @@
+/*html,body{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*#root {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    border: 1px solid #c01;*/
+/*    !*background: #c01 !important;*!*/
+/*    --palette-primary-main: #c01;*/
+/*    --palette-primary-light: #c01;*/
+/*    --palette-primary-dark: #c01;*/
+/*}*/
+
+/*.demo{*/
+/*    border: 1px solid #c01;*/
+/*}*/
+
+/*.svg-animation{*/
+/*    border:1px solid #c01;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*@keyframes spin {*/
+/*    to {*/
+/*        transform: rotate(360deg);*/
+/*    }*/
+/*}*/
+
+/*@keyframes spin2 {*/
+/*    0% {*/
+/*        stroke-dasharray: 1, 800;*/
+/*        stroke-dashoffset: 0;*/
+/*    }*/
+/*    50% {*/
+/*        stroke-dasharray: 400, 400;*/
+/*        stroke-dashoffset: -200px;*/
+/*    }*/
+/*    100% {*/
+/*        stroke-dasharray: 800, 1;*/
+/*        stroke-dashoffset: -800px;*/
+/*    }*/
+/*}*/
+
+/*.spin2 {*/
+/*    transform-origin: center;*/
+/*    animation: spin2 1.5s ease-in-out infinite,*/
+/*    spin 2s linear infinite;*/
+/*    animation-direction: alternate;*/
+/*}*/
